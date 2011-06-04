@@ -1,0 +1,2200 @@
+
+
+Started GET "/Products" for 127.0.0.1 at Sun Mar 13 15:57:19 +0100 2011
+
+ActionController::RoutingError (No route matches "/Products"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/products/" for 127.0.0.1 at Sun Mar 13 16:10:24 +0100 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 875ms (Views: 500.0ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/products/" for 127.0.0.1 at Tue Mar 15 16:10:12 +0100 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered products/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 891ms (Views: 531.2ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at Tue Mar 15 16:12:33 +0100 2011
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (78.1ms)
+Rendered products/new.html.erb within layouts/application (343.8ms)
+Completed 200 OK in 1172ms (Views: 1109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at Tue Mar 29 15:35:21 +0200 2011
+  Processing by StoreController#index as HTML
+Rendered store/index.html.erb within layouts/application (156.2ms)
+Completed 200 OK in 1953ms (Views: 1953.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Mar 29 15:42:45 +0200 2011
+  Processing by StoreController#index as HTML
+Rendered store/index.html.erb within layouts/application (78.1ms)
+Completed 200 OK in 969ms (Views: 968.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Mar 29 15:47:15 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (46.9ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+Rendered store/index.html.erb within layouts/application (140.6ms)
+Completed 200 OK in 3125ms (Views: 1812.5ms | ActiveRecord: 46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Mar 29 15:49:03 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+Rendered store/index.html.erb within layouts/application (281.2ms)
+Completed 200 OK in 2281ms (Views: 1953.1ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Mar 29 15:49:07 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:49:08 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Mar 29 15:49:08 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:49:09 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Mar 29 15:51:05 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+Rendered store/index.html.erb within layouts/application (265.6ms)
+Completed 200 OK in 2078ms (Views: 1937.5ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:51:08 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Mar 29 15:51:09 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (156.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:51:11 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Mar 29 15:51:12 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:51:14 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Mar 29 15:51:16 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (31.2ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+Rendered store/index.html.erb within layouts/application (796.9ms)
+Completed 200 OK in 3500ms (Views: 3265.6ms | ActiveRecord: 31.2ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Mar 29 15:51:21 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:51:23 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Mar 29 15:51:24 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:51:25 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Mar 29 15:51:48 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+Rendered store/index.html.erb within layouts/application (171.9ms)
+Completed 200 OK in 2203ms (Views: 2000.0ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Mar 29 15:51:52 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:51:53 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Mar 29 15:53:40 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+Rendered store/index.html.erb within layouts/application (140.6ms)
+Completed 200 OK in 1969ms (Views: 1703.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:53:43 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:53:45 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/products/" for 127.0.0.1 at Tue Mar 29 15:56:10 +0200 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+Rendered products/index.html.erb within layouts/application (140.6ms)
+Completed 200 OK in 2109ms (Views: 1968.8ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:56:13 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:56:15 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at Tue Mar 29 15:56:20 +0200 2011
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (140.6ms)
+Rendered products/new.html.erb within layouts/application (875.0ms)
+Completed 200 OK in 1844ms (Views: 1765.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:56:24 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started POST "/products" for 127.0.0.1 at Tue Mar 29 15:58:29 +0200 2011
+  Processing by ProductsController#create as HTML
+  Parameters: {"commit"=>"Create Product", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk=", "utf8"=>"✓", "product"=>{"price"=>"", "title"=>"se best prödact", "image_url"=>"", "description"=>"wanderfull and ämäising"}}
+  [1m[35mSQL (15.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products"."id" FROM "products" WHERE ("products"."title" = 'se best prödact') LIMIT 1[0m
+Rendered products/_form.html.erb (31.2ms)
+Rendered products/new.html.erb within layouts/application (812.5ms)
+Completed 200 OK in 3344ms (Views: 2687.5ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:58:34 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:58:36 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at Tue Mar 29 15:59:32 +0200 2011
+  Processing by ProductsController#create as HTML
+  Parameters: {"commit"=>"Create Product", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk=", "utf8"=>"✓", "product"=>{"price"=>"10.5", "title"=>"se best prödact", "image_url"=>"http://fashioninmotion.files.wordpress.com/2009/11/borat_moviepicturefilmdotcom.jpg", "description"=>"wanderfull and ämäising"}}
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products"."id" FROM "products" WHERE ("products"."title" = 'se best prödact') LIMIT 1
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "products" ("image_url", "price", "created_at", "updated_at", "title", "description") VALUES ('http://fashioninmotion.files.wordpress.com/2009/11/borat_moviepicturefilmdotcom.jpg', 10.5, '2011-03-29 13:59:33.570781', '2011-03-29 13:59:33.570781', 'se best prödact', 'wanderfull and ämäising')[0m
+Redirected to http://localhost:3000/products/1
+Completed 302 Found in 281ms
+
+
+Started GET "/products/1" for 127.0.0.1 at Tue Mar 29 15:59:34 +0200 2011
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+Rendered products/show.html.erb within layouts/application (156.2ms)
+Completed 200 OK in 2203ms (Views: 2031.2ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:59:38 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:59:40 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/products" for 127.0.0.1 at Tue Mar 29 15:59:46 +0200 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+Rendered products/index.html.erb within layouts/application (218.8ms)
+Completed 200 OK in 2297ms (Views: 2109.4ms | ActiveRecord: 31.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 15:59:51 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at Tue Mar 29 15:59:54 +0200 2011
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (78.1ms)
+Rendered products/new.html.erb within layouts/application (859.4ms)
+Completed 200 OK in 3297ms (Views: 3093.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 16:00:02 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started POST "/products" for 127.0.0.1 at Tue Mar 29 16:02:40 +0200 2011
+  Processing by ProductsController#create as HTML
+  Parameters: {"commit"=>"Create Product", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk=", "utf8"=>"✓", "product"=>{"price"=>"20.33", "title"=>"hammer", "image_url"=>"http://ideaelevator.co/wp/wp-content/uploads/2011/01/petergriffinbh9.jpg", "description"=>"blabla"}}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products"."id" FROM "products" WHERE ("products"."title" = 'hammer') LIMIT 1
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "products" ("price", "created_at", "description", "title", "image_url", "updated_at") VALUES (20.33, '2011-03-29 14:02:41.945781', 'blabla', 'hammer', 'http://ideaelevator.co/wp/wp-content/uploads/2011/01/petergriffinbh9.jpg', '2011-03-29 14:02:41.945781')[0m
+Redirected to http://localhost:3000/products/2
+Completed 302 Found in 266ms
+
+
+Started GET "/products/2" for 127.0.0.1 at Tue Mar 29 16:02:43 +0200 2011
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1
+Rendered products/show.html.erb within layouts/application (171.9ms)
+Completed 200 OK in 2312ms (Views: 2140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 16:02:46 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 16:02:48 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Mar 29 16:02:55 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+Rendered store/index.html.erb within layouts/application (328.1ms)
+Completed 200 OK in 1391ms (Views: 1171.9ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 16:02:58 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 16:03:00 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Mar 29 16:10:20 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+Rendered store/index.html.erb within layouts/application (156.3ms)
+Completed 200 OK in 2016ms (Views: 1875.0ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 16:10:23 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Mar 29 16:10:25 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+  [1m[36mSQL (15.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateProducts (20110308151209)
+Migrating to CreateCarts (20110503072551)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.0ms)[0m  [1mCREATE TABLE "carts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110503072551')
+  [1m[36mSQL (1.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (2.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("carts")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("products")[0m
+  [1m[36mSQL (15.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateProducts (20110308151209)
+Migrating to CreateCarts (20110503072551)
+Migrating to CreateLineItems (20110503073051)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (15.6ms)[0m  [1mCREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer, "cart_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110503073051')
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("carts")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("line_items")[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("products")
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "carts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer, "cart_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (15.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (15.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (31.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110503073051')[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110308151209')
+  [1m[36mSQL (31.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110503072551')[0m
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 09:51:06 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+Rendered store/index.html.erb within layouts/application (187.5ms)
+Completed 200 OK in 1641ms (Views: 906.2ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue May 03 09:51:32 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue May 03 09:51:34 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/line_items?product_id=2" for 127.0.0.1 at Tue May 03 09:51:38 +0200 2011
+  Processing by LineItemsController#create as HTML
+  Parameters: {"product_id"=>"2", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES ('2011-05-03 07:51:39.390734', '2011-05-03 07:51:39.390734')[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1
+  [1m[36mAREL (15.6ms)[0m  [1mINSERT INTO "line_items" ("product_id", "created_at", "updated_at", "cart_id") VALUES (2, '2011-05-03 07:51:39.781359', '2011-05-03 07:51:39.781359', 1)[0m
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/carts/1
+Completed 302 Found in 547ms
+
+
+Started GET "/carts/1" for 127.0.0.1 at Tue May 03 09:51:39 +0200 2011
+  Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1[0m
+ERROR: compiling _app_views_carts_show_html_erb___488800191_126328392_0 RAISED compile error
+Z:/Daten/Studium/Web Programmierung 2/RoRShop/app/views/carts/show.html.erb:6: unknown regexp option - l
+Z:/Daten/Studium/Web Programmierung 2/RoRShop/app/views/carts/show.html.erb:6: unmatched ): /li>
+	<% end );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</
+Z:/Daten/Studium/Web Programmierung 2/RoRShop/app/views/carts/show.html.erb:8: syntax error, unexpected '<'
+<p id="notice">');@output_buffe...
+ ^
+Z:/Daten/Studium/Web Programmierung 2/RoRShop/app/views/carts/show.html.erb:8: unterminated string meets end of file
+Z:/Daten/Studium/Web Programmierung 2/RoRShop/app/views/carts/show.html.erb:8: syntax error, unexpected tSTRING_END, expecting tSTRING_CONTENT or tREGEXP_END or tSTRING_DBEG or tSTRING_DVAR
+Function body:           def _app_views_carts_show_html_erb___488800191_126328392_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "carts/show";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h2>Your Pragmatic Card</h2>
+<ul>
+');	 for item in @cart.line_items 
+@output_buffer.safe_concat('		<li>');@output_buffer.append= ( item.product.title </li>
+	<% end );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</ul>
+
+<p id="notice">');@output_buffer.append= ( notice );@output_buffer.safe_concat('</p>
+
+
+');@output_buffer.append= ( link_to 'Edit', edit_cart_path(@cart) );@output_buffer.safe_concat(' |
+');@output_buffer.append= ( link_to 'Back', carts_path );@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: Z:/Daten/Studium/Web Programmierung 2/RoRShop/app/views/carts/show.html.erb:8:in `compile'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_view/template.rb:134:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/notifications.rb:54:in `instrument'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_view/template.rb:127:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:59:in `_render_template'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:56:in `_render_template'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:26:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:115:in `_render_template'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:93:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:17:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-3.0.5/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:39:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/mime_responds.rb:261:in `retrieve_response_from_mimes'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/mime_responds.rb:192:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/mime_responds.rb:192:in `respond_to'
+Z:/Daten/Studium/Web Programmierung 2/RoRShop/app/controllers/carts_controller.rb:18:in `show'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:150:in `process_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:11:in `process_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:18:in `process_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:435:in `_run__636904803__process_action__453433196__callbacks'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:409:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:93:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:93:in `run_callbacks'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/rescue.rb:17:in `process_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:119:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:41:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal.rb:138:in `dispatch'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_controller/metal.rb:178:in `action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:27:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `recognize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:89:in `optimized_each'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:492:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/head.rb:14:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/flash.rb:182:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:32:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:12:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:31:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/railties-3.0.5/lib/rails/rack/logger.rb:13:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-3.0.5/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/static.rb:30:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/railties-3.0.5/lib/rails/application.rb:168:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/railties-3.0.5/lib/rails/application.rb:77:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/railties-3.0.5/lib/rails/application.rb:77:in `method_missing'
+C:/Ruby187/lib/ruby/gems/1.8/gems/railties-3.0.5/lib/rails/rack/log_tailer.rb:14:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:13:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/server.rb:213:in `start'
+C:/Ruby187/lib/ruby/gems/1.8/gems/railties-3.0.5/lib/rails/commands/server.rb:65:in `start'
+C:/Ruby187/lib/ruby/gems/1.8/gems/railties-3.0.5/lib/rails/commands.rb:30
+C:/Ruby187/lib/ruby/gems/1.8/gems/railties-3.0.5/lib/rails/commands.rb:27:in `tap'
+C:/Ruby187/lib/ruby/gems/1.8/gems/railties-3.0.5/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered carts/show.html.erb within layouts/application (93.8ms)
+Completed   in 1047ms
+
+ActionView::Template::Error (compile error
+Z:/Daten/Studium/Web Programmierung 2/RoRShop/app/views/carts/show.html.erb:6: unknown regexp option - l
+Z:/Daten/Studium/Web Programmierung 2/RoRShop/app/views/carts/show.html.erb:6: unmatched ): /li>
+	<% end );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</
+Z:/Daten/Studium/Web Programmierung 2/RoRShop/app/views/carts/show.html.erb:8: syntax error, unexpected '<'
+<p id="notice">');@output_buffe...
+ ^
+Z:/Daten/Studium/Web Programmierung 2/RoRShop/app/views/carts/show.html.erb:8: unterminated string meets end of file
+Z:/Daten/Studium/Web Programmierung 2/RoRShop/app/views/carts/show.html.erb:8: syntax error, unexpected tSTRING_END, expecting tSTRING_CONTENT or tREGEXP_END or tSTRING_DBEG or tSTRING_DVAR):
+    3: 	<% for item in @cart.line_items %>
+    4: 		<li><%= item.product.title </li>
+    5: 	<% end %>
+    6: </ul>
+    7: 
+    8: <p id="notice"><%= notice %></p>
+    9: 
+  app/views/carts/show.html.erb:8:in `compile'
+  app/controllers/carts_controller.rb:18:in `show'
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (203.1ms)
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (296.9ms)
+
+
+Started GET "/carts/1" for 127.0.0.1 at Tue May 03 09:52:08 +0200 2011
+  Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 1)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1
+Rendered carts/show.html.erb within layouts/application (328.1ms)
+Completed 200 OK in 2312ms (Views: 2140.6ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue May 03 09:52:12 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue May 03 09:52:14 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/carts" for 127.0.0.1 at Tue May 03 09:52:21 +0200 2011
+  Processing by CartsController#index as HTML
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts"[0m
+Rendered carts/index.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 891ms (Views: 812.5ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue May 03 09:52:23 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 03 09:52:28 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+Rendered store/index.html.erb within layouts/application (171.9ms)
+Completed 200 OK in 1938ms (Views: 1781.2ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue May 03 09:52:33 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Tue May 03 09:52:39 +0200 2011
+  Processing by LineItemsController#create as HTML
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1[0m
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mAREL (31.2ms)[0m  [1mINSERT INTO "line_items" ("cart_id", "updated_at", "product_id", "created_at") VALUES (1, '2011-05-03 07:52:41.015734', 1, '2011-05-03 07:52:41.015734')[0m
+  [1m[35mCart Load (15.6ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/carts/1
+Completed 302 Found in 656ms
+
+
+Started GET "/carts/1" for 127.0.0.1 at Tue May 03 09:52:41 +0200 2011
+  Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1[0m
+  [1m[35mLineItem Load (15.6ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 1)
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+Rendered carts/show.html.erb within layouts/application (187.5ms)
+Completed 200 OK in 938ms (Views: 828.1ms | ActiveRecord: 31.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue May 03 09:52:43 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (15.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateProducts (20110308151209)
+Migrating to CreateCarts (20110503072551)
+Migrating to CreateLineItems (20110503073051)
+Migrating to AddQuantityToLineItem (20110531135242)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (31.2ms)[0m  [1mALTER TABLE "line_items" ADD "quantity" integer DEFAULT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110531135242')
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (15.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("carts")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("line_items")[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("products")
+  [1m[36mSQL (15.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateProducts (20110308151209)
+Migrating to CreateCarts (20110503072551)
+Migrating to CreateLineItems (20110503073051)
+Migrating to AddQuantityToLineItem (20110531135242)
+Migrating to CombineItemsInCart (20110531140107)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts"[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_quantity, product_id AS product_id FROM "line_items" WHERE ("line_items".cart_id = 1) GROUP BY product_id
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110531140107')[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("carts")[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("line_items")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("products")[0m
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CombineItemsInCart (20110531140107)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE (quantity>1)[0m
+  [1m[35mAREL (0.0ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20110531140107'
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("carts")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("line_items")[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("products")
+
+
+Started GET "/carts/wibble" for 127.0.0.1 at Sat Jun 04 15:57:11 +0200 2011
+  Processing by CartsController#show as HTML
+  Parameters: {"id"=>"wibble"}
+  [1m[36mSQL (15.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 0 LIMIT 1
+Attempt to access invalid cart wibble
+Redirected to http://localhost:3000/
+Completed 302 Found in 344ms
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 15:57:24 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+Rendered store/index.html.erb within layouts/application (312.5ms)
+Completed 200 OK in 1250ms (Views: 1093.8ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 15:57:26 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 15:57:28 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 15:57:37 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+Rendered store/index.html.erb within layouts/application (125.0ms)
+Completed 200 OK in 859ms (Views: 765.6ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 15:57:39 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/line_items?product_id=2" for 127.0.0.1 at Sat Jun 04 15:57:45 +0200 2011
+  Processing by LineItemsController#create as HTML
+  Parameters: {"product_id"=>"2", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 2 AND ("line_items".cart_id = 1) LIMIT 1[0m
+  [1m[35mAREL (46.9ms)[0m  UPDATE "line_items" SET "updated_at" = '2011-06-04 13:57:46.839078', "quantity" = 2 WHERE "line_items"."id" = 1
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/carts/1
+Completed 302 Found in 547ms
+
+
+Started GET "/carts/1" for 127.0.0.1 at Sat Jun 04 15:57:47 +0200 2011
+  Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1
+  [1m[36mLineItem Load (15.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 1)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1[0m
+Rendered carts/show.html.erb within layouts/application (375.0ms)
+Completed 200 OK in 1297ms (Views: 1203.1ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 15:57:49 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/carts" for 127.0.0.1 at Sat Jun 04 15:57:59 +0200 2011
+  Processing by CartsController#index as HTML
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts"
+Rendered carts/index.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 1031ms (Views: 937.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 15:58:01 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/carts/1" for 127.0.0.1 at Sat Jun 04 15:58:04 +0200 2011
+  Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 1)
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+Rendered carts/show.html.erb within layouts/application (156.2ms)
+Completed 200 OK in 844ms (Views: 765.6ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 15:58:06 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/carts/1/edit" for 127.0.0.1 at Sat Jun 04 15:58:13 +0200 2011
+  Processing by CartsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1[0m
+Rendered carts/_form.html.erb (15.6ms)
+Rendered carts/edit.html.erb within layouts/application (281.2ms)
+Completed 200 OK in 1047ms (Views: 953.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 15:58:16 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/carts/1" for 127.0.0.1 at Sat Jun 04 15:58:18 +0200 2011
+  Processing by CartsController#update as HTML
+  Parameters: {"commit"=>"Update Cart", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk=", "utf8"=>"✓", "id"=>"1"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/carts/1
+Completed 302 Found in 109ms
+
+
+Started GET "/carts/1" for 127.0.0.1 at Sat Jun 04 15:58:19 +0200 2011
+  Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 1)
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+Rendered carts/show.html.erb within layouts/application (218.8ms)
+Completed 200 OK in 953ms (Views: 875.0ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 15:58:21 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 15:58:36 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+Rendered store/index.html.erb within layouts/application (93.8ms)
+Completed 200 OK in 953ms (Views: 859.4ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 15:58:39 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/line_items?product_id=2" for 127.0.0.1 at Sat Jun 04 15:58:46 +0200 2011
+  Processing by LineItemsController#create as HTML
+  Parameters: {"product_id"=>"2", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+  [1m[35mLineItem Load (15.6ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 2 AND ("line_items".cart_id = 1) LIMIT 1
+  [1m[36mAREL (0.0ms)[0m  [1mUPDATE "line_items" SET "quantity" = 3, "updated_at" = '2011-06-04 13:58:46.901578' WHERE "line_items"."id" = 1[0m
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/carts/1
+Completed 302 Found in 359ms
+
+
+Started GET "/carts/1" for 127.0.0.1 at Sat Jun 04 15:58:47 +0200 2011
+  Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 1)
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+Rendered carts/show.html.erb within layouts/application (265.6ms)
+Completed 200 OK in 1109ms (Views: 1031.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 15:58:49 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 16:44:18 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+Rendered store/index.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 500ms (Views: 453.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 16:44:19 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 16:44:21 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/line_items?product_id=2" for 127.0.0.1 at Sat Jun 04 16:44:28 +0200 2011
+  Processing by LineItemsController#create as HTML
+  Parameters: {"product_id"=>"2", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[35mCart Load (15.6ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 2 AND ("line_items".cart_id = 1) LIMIT 1
+  [1m[36mAREL (0.0ms)[0m  [1mUPDATE "line_items" SET "quantity" = 4, "updated_at" = '2011-06-04 14:44:29.141109' WHERE "line_items"."id" = 1[0m
+  [1m[35mCart Load (15.6ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/carts/1
+Completed 302 Found in 313ms
+
+
+Started GET "/carts/1" for 127.0.0.1 at Sat Jun 04 16:44:29 +0200 2011
+  Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 1)
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+Rendered carts/show.html.erb within layouts/application (156.2ms)
+Completed 200 OK in 750ms (Views: 687.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 16:44:30 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/carts/1" for 127.0.0.1 at Sat Jun 04 16:44:51 +0200 2011
+  Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk=", "id"=>"1"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 1 LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 1)
+  [1m[36mAREL (0.0ms)[0m  [1mDELETE FROM "line_items" WHERE "line_items"."id" = 1[0m
+  [1m[35mAREL (0.0ms)[0m  DELETE FROM "line_items" WHERE "line_items"."id" = 2
+  [1m[36mAREL (0.0ms)[0m  [1mDELETE FROM "carts" WHERE "carts"."id" = 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 203ms
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 16:44:52 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+Rendered store/index.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 547ms (Views: 484.4ms | ActiveRecord: 46.9ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 16:44:54 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 16:44:59 +0200 2011
+  Processing by LineItemsController#create as HTML
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "carts" ("updated_at", "created_at") VALUES ('2011-06-04 14:45:00.016109', '2011-06-04 14:45:00.016109')[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (15.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 2) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO "line_items" ("created_at", "quantity", "updated_at", "cart_id", "product_id") VALUES ('2011-06-04 14:45:00.219234', 1, '2011-06-04 14:45:00.219234', 2, 1)
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 2 LIMIT 1[0m
+Redirected to http://localhost:3000/carts/2
+Completed 302 Found in 344ms
+
+
+Started GET "/carts/2" for 127.0.0.1 at Sat Jun 04 16:45:00 +0200 2011
+  Processing by CartsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCart Load (15.6ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 2 LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 2)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+Rendered carts/show.html.erb within layouts/application (203.1ms)
+Completed 200 OK in 953ms (Views: 875.0ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 16:45:02 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/line_items?product_id=2" for 127.0.0.1 at Sat Jun 04 16:45:07 +0200 2011
+  Processing by LineItemsController#create as HTML
+  Parameters: {"product_id"=>"2", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 2 LIMIT 1[0m
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (15.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 2 AND ("line_items".cart_id = 2) LIMIT 1[0m
+  [1m[35mAREL (15.6ms)[0m  INSERT INTO "line_items" ("created_at", "product_id", "cart_id", "quantity", "updated_at") VALUES ('2011-06-04 14:45:08.641109', 2, 2, 1, '2011-06-04 14:45:08.641109')
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 2 LIMIT 1[0m
+Redirected to http://localhost:3000/carts/2
+Completed 302 Found in 328ms
+
+
+Started GET "/carts/2" for 127.0.0.1 at Sat Jun 04 16:45:08 +0200 2011
+  Processing by CartsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 2 LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 2)[0m
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered carts/show.html.erb within layouts/application (140.6ms)
+Completed 200 OK in 812ms (Views: 734.4ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 16:45:10 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 17:11:06 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 2 LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 2)
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (328.1ms)
+Rendered store/index.html.erb within layouts/application (625.0ms)
+Completed 200 OK in 1516ms (Views: 1328.1ms | ActiveRecord: 31.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:11:09 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Sat Jun 04 17:11:10 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:11:11 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 17:11:14 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 2 LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 2)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (31.2ms)
+Rendered carts/_cart.html.erb (515.6ms)
+Rendered store/index.html.erb within layouts/application (1328.1ms)
+Completed 200 OK in 3547ms (Views: 3031.2ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Sat Jun 04 17:11:19 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:11:20 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 17:12:37 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 2 LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 2)
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1[0m
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1
+Rendered line_items/_line_item.html.erb (31.2ms)
+Rendered carts/_cart.html.erb (328.1ms)
+Rendered store/index.html.erb within layouts/application (609.4ms)
+Completed 200 OK in 1438ms (Views: 1265.6ms | ActiveRecord: 31.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:12:39 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:12:41 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/carts/2" for 127.0.0.1 at Sat Jun 04 17:12:57 +0200 2011
+  Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk=", "id"=>"2"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 2 LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 2)
+  [1m[36mAREL (0.0ms)[0m  [1mDELETE FROM "line_items" WHERE "line_items"."id" = 3[0m
+  [1m[35mAREL (0.0ms)[0m  DELETE FROM "line_items" WHERE "line_items"."id" = 4
+  [1m[36mAREL (0.0ms)[0m  [1mDELETE FROM "carts" WHERE "carts"."id" = 2[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 188ms
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 17:12:58 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "carts" ("updated_at", "created_at") VALUES ('2011-06-04 15:12:58.984859', '2011-06-04 15:12:58.984859')[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 3)
+Rendered collection (0.0ms)
+Rendered carts/_cart.html.erb (46.9ms)
+Rendered store/index.html.erb within layouts/application (265.6ms)
+Completed 200 OK in 828ms (Views: 687.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:13:00 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 17:14:16 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 3 LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 3)[0m
+Rendered collection (0.0ms)
+Rendered carts/_cart.html.erb (46.9ms)
+Rendered store/index.html.erb within layouts/application (250.0ms)
+Completed 200 OK in 953ms (Views: 828.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:14:17 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:14:19 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/carts/3" for 127.0.0.1 at Sat Jun 04 17:14:27 +0200 2011
+  Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk=", "id"=>"3"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 3 LIMIT 1
+  [1m[36mLineItem Load (15.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 3)[0m
+  [1m[35mAREL (0.0ms)[0m  DELETE FROM "carts" WHERE "carts"."id" = 3
+Redirected to http://localhost:3000/
+Completed 302 Found in 203ms
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 17:14:28 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO "carts" ("updated_at", "created_at") VALUES ('2011-06-04 15:14:29.104000', '2011-06-04 15:14:29.104000')
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 4)[0m
+Rendered collection (0.0ms)
+Rendered carts/_cart.html.erb (62.5ms)
+Rendered store/index.html.erb within layouts/application (265.6ms)
+Completed 200 OK in 844ms (Views: 687.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:14:30 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/line_items?product_id=2" for 127.0.0.1 at Sat Jun 04 17:14:32 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"2", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 4 LIMIT 1
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 2 AND ("line_items".cart_id = 4) LIMIT 1
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "line_items" ("created_at", "updated_at", "quantity", "cart_id", "product_id") VALUES ('2011-06-04 15:14:33.229000', '2011-06-04 15:14:33.229000', 1, 4, 2)[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 4)
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (203.1ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 4)
+Rendered line_items/create.js.rjs (343.8ms)
+Completed 200 OK in 1844ms (Views: 1578.1ms | ActiveRecord: 15.6ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:14:51 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 4 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (15.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 4) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO "line_items" ("created_at", "cart_id", "updated_at", "product_id", "quantity") VALUES ('2011-06-04 15:14:52.564937', 4, '2011-06-04 15:14:52.564937', 1, 1)
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 4)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 4)
+Rendered line_items/create.js.rjs (359.4ms)
+Completed 200 OK in 1719ms (Views: 1437.5ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 17:16:30 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  [1m[35mCart Load (15.6ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 4 LIMIT 1
+  [1m[36mLineItem Load (15.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 4)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (296.9ms)
+Rendered store/index.html.erb within layouts/application (578.1ms)
+Completed 200 OK in 1578ms (Views: 1312.5ms | ActiveRecord: 31.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:16:32 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:16:34 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started POST "/carts/4" for 127.0.0.1 at Sat Jun 04 17:16:39 +0200 2011
+  Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk=", "id"=>"4"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 4 LIMIT 1
+  [1m[36mLineItem Load (15.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 4)[0m
+  [1m[35mAREL (0.0ms)[0m  DELETE FROM "line_items" WHERE "line_items"."id" = 5
+  [1m[36mAREL (0.0ms)[0m  [1mDELETE FROM "line_items" WHERE "line_items"."id" = 6[0m
+  [1m[35mAREL (0.0ms)[0m  DELETE FROM "carts" WHERE "carts"."id" = 4
+Redirected to http://localhost:3000/
+Completed 302 Found in 203ms
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 17:16:40 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES ('2011-06-04 15:16:40.589351', '2011-06-04 15:16:40.589351')
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 5)[0m
+Rendered collection (0.0ms)
+Rendered carts/_cart.html.erb (46.9ms)
+Rendered store/index.html.erb within layouts/application (250.0ms)
+Completed 200 OK in 875ms (Views: 703.1ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:16:41 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/line_items?product_id=2" for 127.0.0.1 at Sat Jun 04 17:16:44 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"2", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 5 LIMIT 1
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 2 AND ("line_items".cart_id = 5) LIMIT 1
+  [1m[36mAREL (15.6ms)[0m  [1mINSERT INTO "line_items" ("updated_at", "created_at", "product_id", "quantity", "cart_id") VALUES ('2011-06-04 15:16:44.792476', '2011-06-04 15:16:44.792476', 2, 1, 5)[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 5)
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (203.1ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 5)
+Rendered line_items/create.js.rjs (375.0ms)
+Completed 200 OK in 1922ms (Views: 1640.6ms | ActiveRecord: 31.2ms)
+
+
+Started POST "/carts/5" for 127.0.0.1 at Sat Jun 04 17:16:52 +0200 2011
+  Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk=", "id"=>"5"}
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 5 LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 5)
+  [1m[36mAREL (15.6ms)[0m  [1mDELETE FROM "line_items" WHERE "line_items"."id" = 7[0m
+  [1m[35mAREL (0.0ms)[0m  DELETE FROM "carts" WHERE "carts"."id" = 5
+Redirected to http://localhost:3000/
+Completed 302 Found in 203ms
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 17:16:53 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  [1m[35mAREL (15.6ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES ('2011-06-04 15:16:53.948726', '2011-06-04 15:16:53.948726')
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+Rendered collection (0.0ms)
+Rendered carts/_cart.html.erb (62.5ms)
+Rendered store/index.html.erb within layouts/application (265.6ms)
+Completed 200 OK in 891ms (Views: 750.0ms | ActiveRecord: 31.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:16:55 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:16:58 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "line_items" ("product_id", "created_at", "updated_at", "cart_id", "quantity") VALUES (1, '2011-06-04 15:16:59.417476', '2011-06-04 15:16:59.417476', 6, 1)[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (0.0ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (343.8ms)
+Completed 200 OK in 1797ms (Views: 1468.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/line_items?product_id=2" for 127.0.0.1 at Sat Jun 04 17:17:04 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"2", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 2 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO "line_items" ("quantity", "cart_id", "product_id", "created_at", "updated_at") VALUES (1, 6, 2, '2011-06-04 15:17:04.979976', '2011-06-04 15:17:04.979976')
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (15.6ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (375.0ms)
+Completed 200 OK in 1766ms (Views: 1437.5ms | ActiveRecord: 46.9ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:08 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (15.6ms)[0m  UPDATE "line_items" SET "updated_at" = '2011-06-04 15:17:09.214351', "quantity" = 2 WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (62.5ms)
+Rendered carts/_cart.html.erb (234.4ms)
+  [1m[35mSQL (15.6ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (390.6ms)
+Completed 200 OK in 1781ms (Views: 1437.5ms | ActiveRecord: 62.5ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:11 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "quantity" = 3, "updated_at" = '2011-06-04 15:17:12.479976' WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (359.4ms)
+Completed 200 OK in 1750ms (Views: 1468.8ms | ActiveRecord: 15.6ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:15 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "updated_at" = '2011-06-04 15:17:16.151851', "quantity" = 4 WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (15.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (343.8ms)
+Completed 200 OK in 1734ms (Views: 1437.5ms | ActiveRecord: 31.2ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:19 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "updated_at" = '2011-06-04 15:17:20.073726', "quantity" = 5 WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (359.4ms)
+Completed 200 OK in 1734ms (Views: 1437.5ms | ActiveRecord: 31.2ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:21 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "updated_at" = '2011-06-04 15:17:21.917476', "quantity" = 6 WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (343.8ms)
+Completed 200 OK in 1438ms (Views: 1281.2ms | ActiveRecord: 15.6ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:23 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "quantity" = 7, "updated_at" = '2011-06-04 15:17:23.636226' WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (343.8ms)
+Completed 200 OK in 1484ms (Views: 1281.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:24 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "quantity" = 8, "updated_at" = '2011-06-04 15:17:25.308101' WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (343.8ms)
+Completed 200 OK in 1438ms (Views: 1281.2ms | ActiveRecord: 15.6ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:26 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (15.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "updated_at" = '2011-06-04 15:17:26.995601', "quantity" = 9 WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (359.4ms)
+Completed 200 OK in 1516ms (Views: 1343.8ms | ActiveRecord: 46.9ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:32 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "quantity" = 10, "updated_at" = '2011-06-04 15:17:33.183101' WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (343.8ms)
+Completed 200 OK in 1672ms (Views: 1406.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:34 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (15.6ms)[0m  UPDATE "line_items" SET "quantity" = 11, "updated_at" = '2011-06-04 15:17:35.011226' WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (15.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (343.8ms)
+Completed 200 OK in 1453ms (Views: 1281.2ms | ActiveRecord: 31.2ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:36 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "updated_at" = '2011-06-04 15:17:36.776851', "quantity" = 12 WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (343.8ms)
+Completed 200 OK in 1500ms (Views: 1281.2ms | ActiveRecord: 15.6ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:38 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "quantity" = 13, "updated_at" = '2011-06-04 15:17:38.464351' WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (359.4ms)
+Completed 200 OK in 1469ms (Views: 1296.9ms | ActiveRecord: 15.6ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:43 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "quantity" = 14, "updated_at" = '2011-06-04 15:17:44.120601' WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (31.2ms)
+Rendered carts/_cart.html.erb (234.4ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (390.6ms)
+Completed 200 OK in 1828ms (Views: 1562.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:45 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "quantity" = 15, "updated_at" = '2011-06-04 15:17:46.104976' WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (328.1ms)
+Completed 200 OK in 1438ms (Views: 1281.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:50 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (15.6ms)[0m  UPDATE "line_items" SET "quantity" = 16, "updated_at" = '2011-06-04 15:17:51.511226' WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (359.4ms)
+Completed 200 OK in 1750ms (Views: 1453.1ms | ActiveRecord: 46.9ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:53 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (15.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "quantity" = 17, "updated_at" = '2011-06-04 15:17:53.448726' WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (31.2ms)
+Rendered carts/_cart.html.erb (187.5ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (343.8ms)
+Completed 200 OK in 1516ms (Views: 1312.5ms | ActiveRecord: 15.6ms)
+
+
+Started POST "/line_items?product_id=1" for 127.0.0.1 at Sat Jun 04 17:17:54 +0200 2011
+  Processing by LineItemsController#create as JS
+  Parameters: {"product_id"=>"1", "authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk="}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."product_id" = 1 AND ("line_items".cart_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.0ms)[0m  UPDATE "line_items" SET "quantity" = 18, "updated_at" = '2011-06-04 15:17:55.167476' WHERE "line_items"."id" = 8
+  [1m[36mLineItem Load (15.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 ORDER BY title LIMIT 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 ORDER BY title LIMIT 1[0m
+Rendered line_items/_line_item.html.erb (15.6ms)
+Rendered carts/_cart.html.erb (218.8ms)
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_id FROM "line_items" WHERE ("line_items".cart_id = 6)
+Rendered line_items/create.js.rjs (359.4ms)
+Completed 200 OK in 1469ms (Views: 1296.9ms | ActiveRecord: 15.6ms)
+
+
+Started POST "/carts/6" for 127.0.0.1 at Sat Jun 04 17:18:00 +0200 2011
+  Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/EZciubGiyv2/YszXsttp2mReDjs1c7Ddmqe47LNiIk=", "id"=>"6"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = 6 LIMIT 1[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 6)
+  [1m[36mAREL (0.0ms)[0m  [1mDELETE FROM "line_items" WHERE "line_items"."id" = 8[0m
+  [1m[35mAREL (0.0ms)[0m  DELETE FROM "line_items" WHERE "line_items"."id" = 9
+  [1m[36mAREL (0.0ms)[0m  [1mDELETE FROM "carts" WHERE "carts"."id" = 6[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 219ms
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 04 17:18:01 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (15.6ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES ('2011-06-04 15:18:01.683101', '2011-06-04 15:18:01.683101')[0m
+  [1m[35mLineItem Load (0.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE ("line_items".cart_id = 7)
+Rendered collection (0.0ms)
+Rendered carts/_cart.html.erb (62.5ms)
+Rendered store/index.html.erb within layouts/application (343.8ms)
+Completed 200 OK in 1141ms (Views: 937.5ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Jun 04 17:18:03 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (15.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateProducts (20110308151209)
+Migrating to CreateCarts (20110503072551)
+Migrating to CreateLineItems (20110503073051)
+Migrating to AddQuantityToLineItem (20110531135242)
+Migrating to CombineItemsInCart (20110531140107)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts"[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT SUM("line_items"."quantity") AS sum_quantity, product_id AS product_id FROM "line_items" WHERE ("line_items".cart_id = 7) GROUP BY product_id
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110531140107')[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("carts")[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("line_items")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("products")[0m
+  [1m[36mSQL (15.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  CREATE TABLE "carts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (15.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer, "cart_id" integer, "created_at" datetime, "updated_at" datetime, "quantity" integer DEFAULT 1) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110531140107')[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110308151209')
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110503072551')[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110503073051')
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110531135242')[0m
+
+
+Started GET "/products/" for 127.0.0.1 at Sat Jun 04 17:23:00 +0200 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (15.6ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+Rendered products/index.html.erb within layouts/application (62.5ms)
+Completed   in 1125ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    19:     <div id="side">
+    20:       <!-- START_HIGHLIGHT -->
+    21:       <div id="cart">
+    22:         <%= render @cart %>
+    23:       </div>
+    24:       <!-- END_HIGHLIGHT -->
+    25: 
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb___1031423848_125289528_0'
+  app/controllers/products_controller.rb:7:in `index'
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "carts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer, "cart_id" integer, "created_at" datetime, "updated_at" datetime, "quantity" integer DEFAULT 1) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (31.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110531140107')[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110308151209')
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110503072551')[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110503073051')
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110531135242')[0m
+  [1m[36mSQL (15.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "carts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer, "cart_id" integer, "created_at" datetime, "updated_at" datetime, "quantity" integer DEFAULT 1) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110531140107')[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110308151209')
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110503072551')[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110503073051')
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110531135242')[0m
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (15.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (15.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "carts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer, "cart_id" integer, "created_at" datetime, "updated_at" datetime, "quantity" integer DEFAULT 1) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110531140107')[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110308151209')
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110503072551')[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110503073051')
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110531135242')[0m
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "carts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer, "cart_id" integer, "created_at" datetime, "updated_at" datetime, "quantity" integer DEFAULT 1) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (15.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110531140107')[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110308151209')
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110503072551')[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110503073051')
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110531135242')[0m
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateProducts (20110308151209)
+Migrating to CreateCarts (20110503072551)
+Migrating to CreateLineItems (20110503073051)
+Migrating to AddQuantityToLineItem (20110531135242)
+Migrating to CombineItemsInCart (20110531140107)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (15.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("carts")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("line_items")[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("products")
